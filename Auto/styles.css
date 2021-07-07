@@ -1,0 +1,84 @@
+body {
+    font-size: 120%;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.4;
+    color: #263238;
+    background-color: #cccccc;
+    margin: 0;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+    text-shadow: 2px 2px white;
+  }
+  nav {
+    background-color: #263238;
+    border-bottom: red;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+  }
+  nav ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 0.8rem;
+  }
+  nav a.aktuell {
+    font-weight: bold;
+    color: #969696;
+  }
+  main {
+    max-width: 62rem;
+    margin: auto;
+    display: flex;
+  }
+  article {
+    width: 50%;
+    margin: 0 2rem;
+    float: left;
+  }
+  img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+  }
+  a:link {
+    color: #464646;
+  }
+  a:visited {
+    color: #ffffff;
+  }
+  a:hover {
+    color: rgb(99, 99, 99);
+  }
+  a:active {
+    color: rgb(255, 0, 0);
+  }
+  span {
+    color: white;
+  }
+  footer {
+    color: rgb(122, 122, 122);
+    background-color: #263238;
+    text-align: center;
+    margin-top: 5px;
+    border-top: red;
+    border-top-width: 2px;
+    border-top-style: solid;
+  }
+  @media screen and (max-width: 530px) {
+    main {
+      display: block;
+    }
+    article {
+      width: auto;
+    }
+}
